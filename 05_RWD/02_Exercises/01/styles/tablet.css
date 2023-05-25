@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* Eine Version für 768 Pixel (beispielsweise Tablet im Hochformat) */
+@media only screen and (max-width: 768px) {
+    html {
+        /*background-image: ??;*/
+    }
+
+  body {
+    /* width: ??;*/
+  }
+
+  nav {
+    /* padding: ??;*/
+    text-align:center;
+    /* width: ??;*/
+    background-color: beige;
+  }
+
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+    /* display: ??;*/
+  }
+
+  nav ul li {
+    margin-left: 0;
+    padding: 3px 10px;
+    border-left: 1px solid #000;
+    /* list-style: ??;*/
+    /* display: ??;*/
+  }
+
+  nav h3 {
+    margin: 0 10px 0 0;
+    /* display: ??;*/
+  }
+
+  aside {
+    /* float: ??;*/
+    margin-top: 5px;
+    /* padding: ?? ??;*/
+    /* width: ??;*/
+  }
+
+  main {
+    /* float: ??;*/
+    /* padding:  ?? ??;*/
+    margin: 0;
+    /* width: ??;*/
+  }
+
+  article {
+    width: 98%;
+  }
+
+}

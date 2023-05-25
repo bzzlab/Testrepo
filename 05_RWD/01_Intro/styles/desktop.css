@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Teil 1 - Input */
+@media only screen{
+    html {
+        min-height: 100%;
+        background-size: 100% 100%;
+        background-image: url("../img/desktop.png");
+        background-repeat: no-repeat;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    body {
+        margin: 5px auto;
+        width: 960px;
+    }
+
+    header, footer {
+        background: lightgreen;
+        padding: 1%;
+        text-align: center;
+        width: 98%;
+    }
+
+    nav {
+        float: left;
+        margin-top: 5px;
+        padding: 2% 2%;
+        width: 16%;
+    }
+
+    aside {
+        float: right;
+        margin-top: 5px;
+        padding: 2% 2%;
+        width: 20%;
+    }
+
+    main {
+        float: left;
+        padding: 0 2%;
+        margin-top: 5px;
+        width: 52%;
+    }
+
+.clear { clear: both; }
+
+    article img {
+        /* Bild im Artikel formatieren */
+        float: left;
+        margin: 0 10px 10px 0;
+        border: 3px solid black;
+    }
+
+    article {
+        padding: 2%;
+        margin-bottom: 5px;
+        width: 97%;
+        background: lightblue;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin-left: 0.6em;
+        margin-top: 0.4em;
+    }
+
+    aside ul {
+        margin: 0.5em 0 0.5em 1.6em;
+    }
+
+}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Eine Version für 480 Pixel (beispielsweise Smartphones) */
+@media only screen and (max-width: 480px) {
+    html {
+        /* min-height: ??; */
+        /* background-size: ??; */
+        /* background-image: ??; */
+        background-repeat: no-repeat;
+    }
+
+    body {
+        margin: 5px auto;
+        /* width: ??*/;
+    }
+
+    nav h3 {
+        /*display: ??*/;
+    }
+
+    nav ul li:first-child {
+        margin-left: 20px;
+        border-left: none;
+        /*list-style: ??*/;
+        /*display: ??*/;
+    }
+
+    aside {
+        /*padding: ??*/;
+        /*width: ??*/;
+        background-color: beige;
+        margin: 0 0 5px 0;
+    }
+
+    main {
+        /*width: ??*/;
+    }
+}

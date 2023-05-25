@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+/* Basisversion mit 960 Pixel */
+* { 
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  min-height: 100%;
+  background-size: cover;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+}
+
+#wrapper {
+   margin: 5px auto;
+   width: 960px;
+}
+
+footer, header {
+   background: lightgreen;
+   padding: 1%;
+   text-align:center;
+   width: 98%;
+   opacity: 0.8;
+}
+
+#mainnav {
+   float: left;
+   margin-top: 5px;
+   padding: 2% 2%;
+   width: 16%;
+   background-color: white;
+   opacity: 0.75;
+}
+
+#sidebar {
+   float: right;
+   margin-top: 5px;
+   padding: 2% 2%;
+   width: 20%;
+   background-color: white;
+   opacity: 0.75;
+}
+
+main {
+  float: left;
+  padding: 0 2%;
+  margin-top: 5px;
+  width: 52%;
+}
+
+.clear { clear: both; }
+
+ article img { 
+    /* Bild im Artikel formatieren */
+    float: left;
+    margin: 0 3% 3% 0;
+    border: 2px solid black;
+    max-width: 60%;
+    height: auto;
+ }
+ 
+ article {
+   padding: 2%;
+   margin-bottom: 5px;
+   width: 97%;
+   background: white;
+   opacity: 0.9;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 0.6em;
+  margin-top: 0.4em;
+}
+
+aside ul {
+  margin: 0.5em 0 0.5em 1.6em;
+}
+
+
+/* Eine Version für 768 Pixel (beispielsweise Tablet im Hochformat) */
+
+@media only screen and (max-width: 768px) {
+  #wrapper {
+    width: 98%;
+  }
+  
+  #mainnav {
+    padding: 1%;
+    text-align:center;
+    width: 98%;
+    background-color: beige;
+  } 
+  
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+  }
+    
+  nav ul li {
+    margin-left: 0;
+    padding: 3px 10px;
+    border-left: 1px solid #000;
+    list-style: none;
+    display: inline;
+  }
+  
+  nav h3 {
+    margin: 0 10px 0 0;
+    display: inline;
+  }
+ 
+  #sidebar {
+    float: left;
+    margin-top: 5px;
+    padding: 2% 2%;
+    width: 30%;
+  }
+  
+  main {
+    float: right;
+    padding:  2% 2%;
+    margin: 0;
+    width: 62%;
+  }
+
+  article {
+    width: 98%;
+  }
+  
+}
+
+/* Eine Version für 480 Pixel (beispielsweise Smartphones) */   
+
+@media only screen and (max-width: 480px) { 
+
+  #wrapper {
+    margin: 5px auto;
+    width: 97%;
+  }
+  
+  nav ul li {
+    border: 0;
+    display: block;
+  }
+  
+nav ul li:nth-child(odd) {
+  background-color: darkkhaki;
+}
+   
+  nav h3 {  display: block; }
+   
+   #sidebar {
+     padding: 1%;
+     width: 98%;
+     background-color: beige;
+     margin: 0 0 5px 0;
+   }
+    
+   main {
+     width: 98%;
+   }     
+}

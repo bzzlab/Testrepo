@@ -1,0 +1,19 @@
+/* Styling für alle HTML-Elemente wo title
+   den Attributwert deprecated besitzt
+ */
+body {
+    font-family:"Arial", sans-serif;
+}
+
+/* Styling für alle Elemente mit dem Attribut title */
+[title] {
+    border: 4px solid black;
+}
+
+/* Styling for alle a-Element mit dem Attribut title */
+a[title] {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    border: 2px dotted red;
+}

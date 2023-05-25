@@ -1,0 +1,45 @@
+/* 1. */
+body {
+    font-family: Futura;
+}
+
+/* 5. */
+header,
+footer {
+    font-size: 80%;
+    background-color: #00b3ee;
+    text-align: left;
+}
+
+/* 7. */
+nav {
+    font-size: 90%;
+    background-color: #778899;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* 6. */
+h1, h2{
+    color: darkslateblue;
+}
+
+/* 2. */
+p.remark {
+    margin-left: 70px;
+    border-left: 15px solid blue;
+    padding-left: 10px;
+}
+
+/*  3. */
+p.remark.warning {
+    border-left: 9px solid blue;
+    border-top: 1.5px solid blue;
+    border-right: 9px solid blue;
+    border-bottom: 1.5px solid blue;
+    text-align: center;
+}
+
+/* 4. */
+.warning { color: blue; }
+.bigfont { font-size: 130%; }

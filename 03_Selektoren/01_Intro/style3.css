@@ -1,0 +1,19 @@
+/* Styling für alle HTML-Elemente wo title
+   den Attributwert deprecated besitzt
+ */
+body {
+    font-family:"Arial", sans-serif;
+}
+
+[title=veraltet] {
+    color: red;
+    text-decoration: line-through;
+}
+
+/* Styling von HTML-Elemente wo title im
+   Attributwert das Wort "bzzlab" enthält
+ */
+[title~=bzzlab] {
+    font-weight: bold;
+    color: red;
+}

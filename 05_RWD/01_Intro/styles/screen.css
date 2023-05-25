@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding:0;
+}
+body {
+  margin: 5px auto;
+  width: 960px;
+}
+  header, footer {
+    border: 1px dotted gray;
+    padding: 5px;
+    text-align:center;
+    width: 98%;
+  }
+nav {
+  float: left;
+  margin: 0;
+  margin-top: 10px;
+  padding: 2% 2%;
+  border: 0;
+  width: 16%;
+  background: #F5F5F5;
+}
+aside {
+  float: right;
+  margin: 0;
+  margin-top: 10px;
+  padding: 2% 2%;
+  border: 0;
+  width: 20%;
+  background: #F5F5F5;
+}
+main {
+   float: left;
+   padding:  0 2%;
+   margin: 0;
+   margin-top: 10px;
+   border: 0;
+   width: 52%;
+}
+.clear { clear: both; }
+article img {
+   float: left;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   border: 3px solid black;
+}
+article {
+  border: 1px dotted gray;
+  padding: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}

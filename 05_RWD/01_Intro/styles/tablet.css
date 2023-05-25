@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* Teil 2 - Input */
+/* Eine Version für 768 Pixel (beispielsweise Tablet im Hochformat) */
+@media only screen and (max-width: 768px) {
+  html {
+      min-height: 100%;
+      background-size: 100% 100%;
+      background-image: url("../img/tablet.png");
+      background-repeat: no-repeat;
+  }
+
+  body {
+    width: 98%;
+  }
+
+  nav {
+    padding: 1%;
+    text-align:center;
+    width: 98%;
+    background-color: beige;
+  }
+
+  nav ul {
+    margin-left: 0;
+    padding-left: 0;
+    display: inline;
+  }
+
+  nav ul li {
+    margin-left: 0;
+    padding: 3px 10px;
+    border-left: 1px solid #000;
+    list-style: none;
+    display: inline;
+  }
+
+  nav h3 {
+    margin: 0 10px 0 0;
+    display: inline;
+  }
+
+  aside {
+    float: left;
+    margin-top: 5px;
+    padding: 2% 2%;
+    width: 30%;
+  }
+
+  main {
+    float: right;
+    padding: 2% 2%;
+    margin: 0;
+    width: 62%;
+  }
+
+  article {
+    width: 98%;
+  }
+
+}
